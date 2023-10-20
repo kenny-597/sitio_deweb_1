@@ -1,0 +1,285 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    color: #d8d8d8;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'karla';
+}
+
+/*.navbar a*/
+/*.nav-logo*/
+.navbar a{
+    text-decoration: none;
+    color: #d8d8d8;
+}
+
+/*.navbar a.nav-logo*/
+/*.nav-logo*/
+.navbar a.nav-logo{
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'karla';
+    color: #f8b5e4;
+    font-weight: bold;
+}
+
+/*.navbar ul*/
+.lista_no_ordenada{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+
+}
+
+/*.navbar ul li*/
+.lis{
+   display: inline-block; 
+}
+
+/*.navbar ul li a*/
+.enlaces{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+/*.navbar ul li a:hover*/
+.enlaces:hover {
+    background-color: gray;
+}
+
+body{
+    background-color: #000;
+}
+
+.content{
+    font-family: 'karla';
+    color: #d8d8d8;
+    margin-top: 30%;
+    margin-left: 100px;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 80px;
+    color: #bb71a5;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btns{
+    
+    margin-top: 20px;
+    background: #d8d8d8;
+    cursor: pointer;
+    color: #191919;
+    padding: 12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+
+.btns:hover{
+    background: #f7d5ed;
+}
+
+.enlace_btn{
+    text-decoration: none;
+    color: #0c0505;
+}
+
+img{
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 475px;
+    filter: grayscale(1);
+}
+
+img:hover{
+    filter: grayscale(0);
+    transition: 3s;
+    cursor: pointer;
+}
+
+
+/*Footer*/
+
+.navbar_footer{
+    background-color: black;
+    color: #d8d8d8;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    line-height: 80px;
+    height: 1px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    
+    left: 0;
+    font-family: 'karla';
+}
+
+
+.navbar_footer a{
+    text-decoration: none;
+    color: #d8d8d8;
+}
+
+.lista_no_ordenada_footer{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+
+}
+
+.lis_footer{
+    display: inline-block; 
+ }
+ 
+
+
+.enlaces_footer{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.enlaces_footer:hover {
+    background-color: rgb(212, 94, 177);
+}
+
+
+/*pagina somos*/
+
+.somos, 
+.objetivos{
+    font-family: 'karla';
+    color: #d8d8d8;
+    margin-top: 30%;
+    margin-left: 100px;
+    margin-bottom: 5%;
+}
+
+
+/*Pagina contacto*/
+
+.contacto{
+    font-family: 'karla';
+    color: #d8d8d8;
+    margin-top: 30%;
+    margin-left: 100px;
+    margin-bottom: 5%;
+}
+
+.correo,
+.telefono{
+    text-decoration: none;
+    color: #fab6eb;
+    /*display: inline-block*/
+}
+
+.correo i,
+.telefono i{
+    color: #fc05b2;
+    margin-right: 10px;
+}
+
+.contacto-email-celu{
+    font-size: 17px;
+    /*display: inline-block;*/
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+
+   
+}
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    /*display: grid;*/
+    grid-template-columns: repeat(2,1fr);
+    
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+.info-form{
+    font-size: 40px;
+    font-weight: bold;
+    color: #d8d8d8;
+}
+
+.campo ,textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+#consulta{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn-enviar:hover{
+    background: #e39403;
+}
